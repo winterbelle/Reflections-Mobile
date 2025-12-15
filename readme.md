@@ -1,6 +1,6 @@
-# 🌱 Reflections — iOS Mobile App
+# 🌱 Reflections MySpace — iOS Mobile App
 
-Reflections is an iOS mobile application built as a **companion experience** to the Reflections web platform.  
+*Reflections My Space* is an iOS mobile application built as a **companion experience** to the Reflections web platform.  
 The goal of Reflections is to provide a safe, supportive space for self-reflection, emotional check-ins, and personal growth.
 
 This mobile version focuses on the **My Space** feature, designed for private journaling and daily reflection, with future plans to integrate the full ecosystem of the Reflections platform.
