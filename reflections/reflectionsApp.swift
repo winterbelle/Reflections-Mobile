@@ -11,7 +11,9 @@ import SwiftUI
 struct reflectionsApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationStack {
+                MySpaceView()
+            }
         }
     }
 }

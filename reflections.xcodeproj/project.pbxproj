@@ -6,6 +6,40 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		68C7F3892EE93B21001D8C20 /* MoodSelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C7F3852EE9305F001D8C20 /* MoodSelectorView.swift */; };
+		68C7F38A2EE93B5E001D8C20 /* MoodViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C7F3822EE92FBF001D8C20 /* MoodViewModel.swift */; };
+		68C7F38B2EE93B64001D8C20 /* MoodEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C7F37D2EE92F5C001D8C20 /* MoodEntry.swift */; };
+		68C7F38F2EE949E4001D8C20 /* QuoteCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C7F38E2EE94991001D8C20 /* QuoteCardView.swift */; };
+		68C7F3902EE949F2001D8C20 /* QuoteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C7F38D2EE94767001D8C20 /* QuoteViewModel.swift */; };
+		68C7F3912EE949F8001D8C20 /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C7F38C2EE946D3001D8C20 /* Quote.swift */; };
+		68C7F3932EE9572C001D8C20 /* IntroCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C7F3922EE95700001D8C20 /* IntroCardView.swift */; };
+		68C7F3962EE95D74001D8C20 /* Color+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C7F3952EE95D3B001D8C20 /* Color+Hex.swift */; };
+		68C7F3972EE9660F001D8C20 /* MySpaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C7F3842EE93050001D8C20 /* MySpaceView.swift */; };
+		68C7F39A2EE96B30001D8C20 /* Secrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C7F3992EE96B23001D8C20 /* Secrets.swift */; };
+		68C7F39C2EE96B99001D8C20 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 68C7F39B2EE96B92001D8C20 /* .gitignore */; };
+		68C7F39E2EE9F526001D8C20 /* JournalEntryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C7F39D2EE9F51B001D8C20 /* JournalEntryViewModel.swift */; };
+		68C7F39F2EE9F608001D8C20 /* JournalEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C7F37E2EE92F80001D8C20 /* JournalEntry.swift */; };
+		68C7F3A32EEA051F001D8C20 /* JournalEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C7F3A22EEA04FB001D8C20 /* JournalEditorView.swift */; };
+		68C7F3A82EEA3CBC001D8C20 /* StreakModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C7F3A72EEA3CB7001D8C20 /* StreakModel.swift */; };
+		68C7F3AA2EEA5DD9001D8C20 /* StreakViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C7F3A92EEA5DCF001D8C20 /* StreakViewModel.swift */; };
+		68C7F3AB2EEA5DFD001D8C20 /* StreakCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C7F3862EE93072001D8C20 /* StreakCardView.swift */; };
+		68C7F3AE2EEA6097001D8C20 /* StreakDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C7F3AD2EEA6083001D8C20 /* StreakDetailView.swift */; };
+		68C7F3B02EEA617C001D8C20 /* CalendarHeatMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C7F3AF2EEA6174001D8C20 /* CalendarHeatMapView.swift */; };
+		68C7F3B32EEA806D001D8C20 /* ConfettiSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 68C7F3B22EEA806D001D8C20 /* ConfettiSwiftUI */; };
+		68C7F3B52EEA8E66001D8C20 /* GoalSelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C7F3B42EEA8E5F001D8C20 /* GoalSelectorView.swift */; };
+		68C7F3B92EECB04B001D8C20 /* NudgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C7F3B72EECAFB4001D8C20 /* NudgeView.swift */; };
+		68C7F3BD2EEE276E001D8C20 /* AIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C7F3BB2EEDEBA8001D8C20 /* AIService.swift */; };
+		68C7F3BE2EEE27F6001D8C20 /* PromptViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C7F3832EE92FCF001D8C20 /* PromptViewModel.swift */; };
+		68C7F3C02EEE3329001D8C20 /* PromptJournalEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C7F3BF2EEE3321001D8C20 /* PromptJournalEditorView.swift */; };
+		68C7F3C52EEE649F001D8C20 /* Secrets.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 68C7F3C42EEE6406001D8C20 /* Secrets.xcconfig */; };
+		68C7F3D62EEE780E001D8C20 /* SmileCarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C7F3882EE9309C001D8C20 /* SmileCarouselView.swift */; };
+		68C7F3D82EEE9FA6001D8C20 /* EntryRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C7F3D72EEE9F9F001D8C20 /* EntryRowView.swift */; };
+		68C7F3E82EF023EA001D8C20 /* SmileCarouselViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C7F3E72EF023D9001D8C20 /* SmileCarouselViewModel.swift */; };
+		68C7F3E92EF023FA001D8C20 /* SmileImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C7F3802EE92F9D001D8C20 /* SmileImage.swift */; };
+		68C7F3F92EF06DAB001D8C20 /* readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 68C7F3F82EF06DA4001D8C20 /* readme.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		68C7F34F2EE92BEE001D8C20 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,11 +61,56 @@
 		68C7F3412EE92BEC001D8C20 /* reflections.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = reflections.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		68C7F34E2EE92BEE001D8C20 /* reflectionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = reflectionsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		68C7F3582EE92BEE001D8C20 /* reflectionsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = reflectionsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		68C7F37D2EE92F5C001D8C20 /* MoodEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodEntry.swift; sourceTree = "<group>"; };
+		68C7F37E2EE92F80001D8C20 /* JournalEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalEntry.swift; sourceTree = "<group>"; };
+		68C7F37F2EE92F8E001D8C20 /* Prompt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prompt.swift; sourceTree = "<group>"; };
+		68C7F3802EE92F9D001D8C20 /* SmileImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmileImage.swift; sourceTree = "<group>"; };
+		68C7F3812EE92FAC001D8C20 /* MySpaceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySpaceViewModel.swift; sourceTree = "<group>"; };
+		68C7F3822EE92FBF001D8C20 /* MoodViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodViewModel.swift; sourceTree = "<group>"; };
+		68C7F3832EE92FCF001D8C20 /* PromptViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromptViewModel.swift; sourceTree = "<group>"; };
+		68C7F3842EE93050001D8C20 /* MySpaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySpaceView.swift; sourceTree = "<group>"; };
+		68C7F3852EE9305F001D8C20 /* MoodSelectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodSelectorView.swift; sourceTree = "<group>"; };
+		68C7F3862EE93072001D8C20 /* StreakCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreakCardView.swift; sourceTree = "<group>"; };
+		68C7F3882EE9309C001D8C20 /* SmileCarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmileCarouselView.swift; sourceTree = "<group>"; };
+		68C7F38C2EE946D3001D8C20 /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
+		68C7F38D2EE94767001D8C20 /* QuoteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteViewModel.swift; sourceTree = "<group>"; };
+		68C7F38E2EE94991001D8C20 /* QuoteCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteCardView.swift; sourceTree = "<group>"; };
+		68C7F3922EE95700001D8C20 /* IntroCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroCardView.swift; sourceTree = "<group>"; };
+		68C7F3952EE95D3B001D8C20 /* Color+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Hex.swift"; sourceTree = "<group>"; };
+		68C7F3992EE96B23001D8C20 /* Secrets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secrets.swift; sourceTree = "<group>"; };
+		68C7F39B2EE96B92001D8C20 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		68C7F39D2EE9F51B001D8C20 /* JournalEntryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalEntryViewModel.swift; sourceTree = "<group>"; };
+		68C7F3A22EEA04FB001D8C20 /* JournalEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalEditorView.swift; sourceTree = "<group>"; };
+		68C7F3A72EEA3CB7001D8C20 /* StreakModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreakModel.swift; sourceTree = "<group>"; };
+		68C7F3A92EEA5DCF001D8C20 /* StreakViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreakViewModel.swift; sourceTree = "<group>"; };
+		68C7F3AD2EEA6083001D8C20 /* StreakDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreakDetailView.swift; sourceTree = "<group>"; };
+		68C7F3AF2EEA6174001D8C20 /* CalendarHeatMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarHeatMapView.swift; sourceTree = "<group>"; };
+		68C7F3B42EEA8E5F001D8C20 /* GoalSelectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalSelectorView.swift; sourceTree = "<group>"; };
+		68C7F3B72EECAFB4001D8C20 /* NudgeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NudgeView.swift; sourceTree = "<group>"; };
+		68C7F3BB2EEDEBA8001D8C20 /* AIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIService.swift; sourceTree = "<group>"; };
+		68C7F3BF2EEE3321001D8C20 /* PromptJournalEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromptJournalEditorView.swift; sourceTree = "<group>"; };
+		68C7F3C42EEE6406001D8C20 /* Secrets.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Secrets.xcconfig; sourceTree = "<group>"; };
+		68C7F3D72EEE9F9F001D8C20 /* EntryRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryRowView.swift; sourceTree = "<group>"; };
+		68C7F3E72EF023D9001D8C20 /* SmileCarouselViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmileCarouselViewModel.swift; sourceTree = "<group>"; };
+		68C7F3F82EF06DA4001D8C20 /* readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		68C7F3C72EEE6B7E001D8C20 /* Exceptions for "reflections" folder in "reflections" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 68C7F3402EE92BEC001D8C20 /* reflections */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		68C7F3432EE92BEC001D8C20 /* reflections */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				68C7F3C72EEE6B7E001D8C20 /* Exceptions for "reflections" folder in "reflections" target */,
+			);
 			path = reflections;
 			sourceTree = "<group>";
 		};
@@ -52,6 +131,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68C7F3B32EEA806D001D8C20 /* ConfettiSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +155,14 @@
 		68C7F3382EE92BEC001D8C20 = {
 			isa = PBXGroup;
 			children = (
+				68C7F3F82EF06DA4001D8C20 /* readme.md */,
+				68C7F3C32EEE6375001D8C20 /* Config */,
+				68C7F3BA2EEDEB9C001D8C20 /* Services */,
+				68C7F39B2EE96B92001D8C20 /* .gitignore */,
+				68C7F3942EE95D24001D8C20 /* Utils */,
+				68C7F37C2EE92EB0001D8C20 /* Views */,
+				68C7F37B2EE92EA1001D8C20 /* ViewModels */,
+				68C7F37A2EE92E9B001D8C20 /* Models */,
 				68C7F3432EE92BEC001D8C20 /* reflections */,
 				68C7F3512EE92BEE001D8C20 /* reflectionsTests */,
 				68C7F35B2EE92BEE001D8C20 /* reflectionsUITests */,
@@ -90,6 +178,110 @@
 				68C7F3582EE92BEE001D8C20 /* reflectionsUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		68C7F37A2EE92E9B001D8C20 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				68C7F3A72EEA3CB7001D8C20 /* StreakModel.swift */,
+				68C7F38C2EE946D3001D8C20 /* Quote.swift */,
+				68C7F3802EE92F9D001D8C20 /* SmileImage.swift */,
+				68C7F37F2EE92F8E001D8C20 /* Prompt.swift */,
+				68C7F37E2EE92F80001D8C20 /* JournalEntry.swift */,
+				68C7F37D2EE92F5C001D8C20 /* MoodEntry.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		68C7F37B2EE92EA1001D8C20 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				68C7F3E72EF023D9001D8C20 /* SmileCarouselViewModel.swift */,
+				68C7F3A92EEA5DCF001D8C20 /* StreakViewModel.swift */,
+				68C7F39D2EE9F51B001D8C20 /* JournalEntryViewModel.swift */,
+				68C7F38D2EE94767001D8C20 /* QuoteViewModel.swift */,
+				68C7F3832EE92FCF001D8C20 /* PromptViewModel.swift */,
+				68C7F3822EE92FBF001D8C20 /* MoodViewModel.swift */,
+				68C7F3812EE92FAC001D8C20 /* MySpaceViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		68C7F37C2EE92EB0001D8C20 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				68C7F3B62EECAF9F001D8C20 /* Prompt */,
+				68C7F3AC2EEA6074001D8C20 /* Streak */,
+				68C7F3A12EEA04F1001D8C20 /* Journal */,
+				68C7F3A02EEA0493001D8C20 /* MySpace */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		68C7F3942EE95D24001D8C20 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				68C7F3952EE95D3B001D8C20 /* Color+Hex.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		68C7F3A02EEA0493001D8C20 /* MySpace */ = {
+			isa = PBXGroup;
+			children = (
+				68C7F3922EE95700001D8C20 /* IntroCardView.swift */,
+				68C7F38E2EE94991001D8C20 /* QuoteCardView.swift */,
+				68C7F3882EE9309C001D8C20 /* SmileCarouselView.swift */,
+				68C7F3852EE9305F001D8C20 /* MoodSelectorView.swift */,
+				68C7F3842EE93050001D8C20 /* MySpaceView.swift */,
+			);
+			path = MySpace;
+			sourceTree = "<group>";
+		};
+		68C7F3A12EEA04F1001D8C20 /* Journal */ = {
+			isa = PBXGroup;
+			children = (
+				68C7F3D72EEE9F9F001D8C20 /* EntryRowView.swift */,
+				68C7F3BF2EEE3321001D8C20 /* PromptJournalEditorView.swift */,
+				68C7F3A22EEA04FB001D8C20 /* JournalEditorView.swift */,
+			);
+			path = Journal;
+			sourceTree = "<group>";
+		};
+		68C7F3AC2EEA6074001D8C20 /* Streak */ = {
+			isa = PBXGroup;
+			children = (
+				68C7F3B42EEA8E5F001D8C20 /* GoalSelectorView.swift */,
+				68C7F3AF2EEA6174001D8C20 /* CalendarHeatMapView.swift */,
+				68C7F3AD2EEA6083001D8C20 /* StreakDetailView.swift */,
+				68C7F3862EE93072001D8C20 /* StreakCardView.swift */,
+			);
+			path = Streak;
+			sourceTree = "<group>";
+		};
+		68C7F3B62EECAF9F001D8C20 /* Prompt */ = {
+			isa = PBXGroup;
+			children = (
+				68C7F3B72EECAFB4001D8C20 /* NudgeView.swift */,
+			);
+			path = Prompt;
+			sourceTree = "<group>";
+		};
+		68C7F3BA2EEDEB9C001D8C20 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				68C7F3BB2EEDEBA8001D8C20 /* AIService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		68C7F3C32EEE6375001D8C20 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				68C7F3992EE96B23001D8C20 /* Secrets.swift */,
+				68C7F3C42EEE6406001D8C20 /* Secrets.xcconfig */,
+			);
+			path = Config;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -112,6 +304,7 @@
 			);
 			name = reflections;
 			packageProductDependencies = (
+				68C7F3B22EEA806D001D8C20 /* ConfettiSwiftUI */,
 			);
 			productName = reflections;
 			productReference = 68C7F3412EE92BEC001D8C20 /* reflections.app */;
@@ -195,6 +388,9 @@
 			);
 			mainGroup = 68C7F3382EE92BEC001D8C20;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				68C7F3B12EEA7FE8001D8C20 /* XCRemoteSwiftPackageReference "ConfettiSwiftUI" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 68C7F3422EE92BEC001D8C20 /* Products */;
 			projectDirPath = "";
@@ -212,6 +408,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68C7F39C2EE96B99001D8C20 /* .gitignore in Resources */,
+				68C7F3F92EF06DAB001D8C20 /* readme.md in Resources */,
+				68C7F3C52EEE649F001D8C20 /* Secrets.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +435,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68C7F3B92EECB04B001D8C20 /* NudgeView.swift in Sources */,
+				68C7F39E2EE9F526001D8C20 /* JournalEntryViewModel.swift in Sources */,
+				68C7F3C02EEE3329001D8C20 /* PromptJournalEditorView.swift in Sources */,
+				68C7F39A2EE96B30001D8C20 /* Secrets.swift in Sources */,
+				68C7F3E92EF023FA001D8C20 /* SmileImage.swift in Sources */,
+				68C7F38F2EE949E4001D8C20 /* QuoteCardView.swift in Sources */,
+				68C7F38A2EE93B5E001D8C20 /* MoodViewModel.swift in Sources */,
+				68C7F38B2EE93B64001D8C20 /* MoodEntry.swift in Sources */,
+				68C7F3B52EEA8E66001D8C20 /* GoalSelectorView.swift in Sources */,
+				68C7F3AB2EEA5DFD001D8C20 /* StreakCardView.swift in Sources */,
+				68C7F3E82EF023EA001D8C20 /* SmileCarouselViewModel.swift in Sources */,
+				68C7F3A32EEA051F001D8C20 /* JournalEditorView.swift in Sources */,
+				68C7F3A82EEA3CBC001D8C20 /* StreakModel.swift in Sources */,
+				68C7F3B02EEA617C001D8C20 /* CalendarHeatMapView.swift in Sources */,
+				68C7F3912EE949F8001D8C20 /* Quote.swift in Sources */,
+				68C7F3D62EEE780E001D8C20 /* SmileCarouselView.swift in Sources */,
+				68C7F3BD2EEE276E001D8C20 /* AIService.swift in Sources */,
+				68C7F3BE2EEE27F6001D8C20 /* PromptViewModel.swift in Sources */,
+				68C7F3962EE95D74001D8C20 /* Color+Hex.swift in Sources */,
+				68C7F3D82EEE9FA6001D8C20 /* EntryRowView.swift in Sources */,
+				68C7F3892EE93B21001D8C20 /* MoodSelectorView.swift in Sources */,
+				68C7F3972EE9660F001D8C20 /* MySpaceView.swift in Sources */,
+				68C7F3902EE949F2001D8C20 /* QuoteViewModel.swift in Sources */,
+				68C7F3AA2EEA5DD9001D8C20 /* StreakViewModel.swift in Sources */,
+				68C7F3AE2EEA6097001D8C20 /* StreakDetailView.swift in Sources */,
+				68C7F39F2EE9F608001D8C20 /* JournalEntry.swift in Sources */,
+				68C7F3932EE9572C001D8C20 /* IntroCardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -392,6 +618,7 @@
 		};
 		68C7F3632EE92BEE001D8C20 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68C7F3C42EEE6406001D8C20 /* Secrets.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -400,17 +627,20 @@
 				DEVELOPMENT_TEAM = 2G283535WD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = reflections/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Select photos to add to your smile carousel";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = MAC221.reflections;
+				PRODUCT_BUNDLE_IDENTIFIER = com.blancaaltamirano.mac221.reflections;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -420,6 +650,7 @@
 		};
 		68C7F3642EE92BEE001D8C20 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68C7F3C42EEE6406001D8C20 /* Secrets.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -428,17 +659,20 @@
 				DEVELOPMENT_TEAM = 2G283535WD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = reflections/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Select photos to add to your smile carousel";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = MAC221.reflections;
+				PRODUCT_BUNDLE_IDENTIFIER = com.blancaaltamirano.mac221.reflections;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -558,6 +792,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		68C7F3B12EEA7FE8001D8C20 /* XCRemoteSwiftPackageReference "ConfettiSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/simibac/ConfettiSwiftUI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		68C7F3B22EEA806D001D8C20 /* ConfettiSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 68C7F3B12EEA7FE8001D8C20 /* XCRemoteSwiftPackageReference "ConfettiSwiftUI" */;
+			productName = ConfettiSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 68C7F3392EE92BEC001D8C20 /* Project object */;
 }

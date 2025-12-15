@@ -1,0 +1,9 @@
+//
+//  .gitignore
+//  reflections
+//
+//  Created by Blanca Altamirano on 12/10/25.
+//
+
+Secrets.swift
+Secrets.xcconfig
